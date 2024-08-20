@@ -226,10 +226,10 @@
 
         default_layer {
             bindings = <
-&kp Y         &kp C       &kp L       &kp M                 &kp K             &kp Z  &kp F       &kp U       &mt COMMA MINUS  &kp BACKSPACE
-&kp I         &hm LCTL S  &hm LALT R  &hm LGUI T            &kp G             &kp P  &hm RGUI N  &hm RALT E  &kp A            &kp O
-&hs LSHIFT Q  &kp V       &kp W       &kp D                 &kp J             &kp B  &kp H       &kp Y       &td EXCL DOT     &hs RSHIFT X
-                                      &mt LC(LS(LALT)) SPC  &kt LEFT_SHIFT    &to 1  &kp E
+&kp Y         &kp C       &kp L       &kp M       &kp K             &kp Z              &kp F       &kp U                 &mt COMMA MINUS  &kp BACKSPACE
+&kp I         &hm LCTL S  &hm LALT R  &hm LGUI T  &kp G             &kp P              &hm RGUI N  &hm RALT E            &kp A            &kp O
+&hs LSHIFT Q  &kp V       &kp W       &kp D       &kp J             &kp B              &kp H       &td SLASH UNDERSCORE  &td EXCL DOT     &kp X
+                                      &kp SPACE   &kt LEFT_SHIFT    &kp RIGHT_CONTROL  &to 1
             >;
 
             label = "Layer 1";
