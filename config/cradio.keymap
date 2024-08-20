@@ -228,7 +228,7 @@
             bindings = <
 &kp Y         &kp C       &kp L       &kp M       &kp K             &kp Z              &kp F       &kp U                 &mt COMMA MINUS  &kp BACKSPACE
 &kp I         &hm LCTL S  &hm LALT R  &hm LGUI T  &kp G             &kp P              &hm RGUI N  &hm RALT E            &kp A            &kp O
-&hs LSHIFT Q  &kp V       &kp W       &kp D       &kp J             &kp B              &kp H       &td SLASH UNDERSCORE  &td EXCL DOT     &kp X
+&hs LSHIFT Q  &kp V       &kp W       &kp D       &kp J             &kp B              &kp H       &td SLASH UNDERSCORE  &mt EXCL DOT     &kp X
                                       &kp SPACE   &kt LEFT_SHIFT    &kp RIGHT_CONTROL  &to 1
             >;
 
@@ -237,10 +237,10 @@
 
         layer_1 {
             bindings = <
-&trans            &kp ATSN        &td LC(LG(LS(N4))) LS(N3)  &kp DLLR               &trans    &trans  &kp LS(COMMA)  &kp LS(DOT)    &kp CARET      &trans
-&kp TAB           &hm LCTL EQUAL  &hm LALT LA(RBKT)          &hm LGUI LA(LS(RBKT))  &trans    &trans  &hm RGUI LBRC  &hm RALT RBRC  &hm RCTL PIPE  &kp AMPS
-&hs LSHIFT TILDE  &kp GRAVE       &kp LA(LBKT)               &kp LA(LS(LBKT))       &to 0     &to 3   &kp LPRN       &kp RPRN       &kp RBKT       &kp RSHIFT
-                                                             &to 0                  &trans    &trans  &to 3
+&kp ESCAPE        &kp AT_SIGN  &kp LS(NUMBER_3)   &kp DLLR               &kp PERCENT          &trans  &kp LS(COMMA)  &kp LS(DOT)    &kp CARET      &trans
+&kp TAB           &kp EQUAL    &hm LALT LA(RBKT)  &hm LGUI LA(LS(RBKT))  &kp SINGLE_QUOTE     &trans  &hm RGUI LBRC  &hm RALT RBRC  &hm RCTL PIPE  &kp AMPS
+&hs LSHIFT TILDE  &kp GRAVE    &kp LA(LBKT)       &kp LA(LS(LBKT))       &kp DOUBLE_QUOTES    &to 3   &kp LPRN       &kp RPRN       &kp RBKT       &kp RSHIFT
+                                                  &to 0                  &trans               &trans  &to 3
             >;
 
             label = "Layer 2";
