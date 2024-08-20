@@ -237,10 +237,10 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE        &kp AT_SIGN  &kp LS(NUMBER_3)   &kp DLLR               &kp PERCENT          &kp CARET           &kp AMPS              &kp STAR               &mt COLON SEMICOLON  &kp BACKSPACE
-&kp TAB           &kp EQUAL    &hm LALT LA(RBKT)  &hm LGUI LA(LS(RBKT))  &kp SINGLE_QUOTE     &mt HOME BACKSLASH  &hm RGUI LBRC         &hm RALT RBRC          &hm END PIPE         &kp ENTER
-&hs LSHIFT TILDE  &kp GRAVE    &kp LA(LBKT)       &kp LA(LS(LBKT))       &kp DOUBLE_QUOTES    &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT             &to 2
-                                                  &to 0                  &kp LEFT_SHIFT       &kp RIGHT_ALT       &to 3
+&kp ESCAPE        &kp AT_SIGN  &mt LS(LG(NUMBER_4)) LS(NUMBER_3)  &kp DLLR               &kp PERCENT          &kp CARET           &kp AMPS              &kp STAR               &mt COLON SEMICOLON  &kp BACKSPACE
+&kp TAB           &kp EQUAL    &hm LALT LA(RBKT)                  &hm LGUI LA(LS(RBKT))  &kp SINGLE_QUOTE     &mt HOME BACKSLASH  &hm RGUI LBRC         &hm RALT RBRC          &hm END PIPE         &kp ENTER
+&hs LSHIFT TILDE  &kp GRAVE    &kp LA(LBKT)                       &kp LA(LS(LBKT))       &kp DOUBLE_QUOTES    &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RBKT             &to 2
+                                                                  &to 0                  &kp LEFT_SHIFT       &kp RIGHT_ALT       &to 3
             >;
 
             label = "Layer 2";
@@ -248,7 +248,7 @@
 
         layer_2 {
             bindings = <
-&trans      &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans    &trans    &kp LC(LS(TAB))  &kp RC(TAB)    &kp LG(LBKT)    &trans
+&kp ESCAPE  &mwh SCROLL_LEFT  &mmv MOVE_UP    &mwh SCROLL_RIGHT  &trans    &trans    &kp LC(LS(TAB))  &kp RC(TAB)    &kp LG(LBKT)    &trans
 &kp TAB     &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &trans    &trans    &kp DOWN         &hm RALT UP    &hm RCTL RIGHT  &kp LG(RBKT)
 &kp LSHIFT  &mkp RCLK         &mwh SCROLL_UP  &mwh SCROLL_DOWN   &to 0     &kp RGUI  &td HOME PG_DN   &td END PG_UP  &trans          &kp RSHIFT
                                               &to 0              &trans    &trans    &kp RGUI
